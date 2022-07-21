@@ -8,6 +8,7 @@ const config = merge(MUIConfig, _config)
 
 export default class Demo extends Component {
   render() {
+    console.log("123");
     return <App config={config} />
   }
 }
